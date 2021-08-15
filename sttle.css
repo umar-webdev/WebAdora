@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    color: hsl(0, 0%, 0%);;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+a.primary__btn {
+    font-family: 'Inter',sans-serif;
+    background-color: hsl(258deg 83% 45%);
+    color: white;
+    font-weight: 600;
+    font-size: smaller;
+    border-radius: 0.3rem;
+    padding: 10px 18px;
+}
+button.startfreetrial {
+    font-weight: bolder;
+    /* background-color: white; */
+    font-size: 15px;
+    margin-top: 40px;
+    letter-spacing: 1.23px;
+    padding: 15px 25px;
+    border-radius: 11px;
+    border: 3px white;
+    background: white;
+    color: hsl(258deg 83% 45%);
+}
+img.why__item__img {
+    max-width: 100%;
+    margin-bottom: 35px;
+    display: block;
+}
+img.rating {
+    margin-right: 8px;
+}
+.container1 {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+section.yfiber {
+    /*width: 1200px;*/
+    padding: 10rem 0;
+}
+.container {
+    margin-left: 40px;
+}
+.imgcontent h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+.imgcontent p{
+    color: white;
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+
+}
+img.pageimg {
+    border-radius: 10px;
+    margin-right: 28px;
+    width: 471px;
+    height: 406px;
+    margin-top: 62px;
+}
+section.imagepage {
+/*    width: 1149px;*/
+    border-radius: 25px;
+    margin: 20px;
+}
+h4 {
+    margin-bottom: 48px;
+    font-family: sans-serif;
+    color: hsl(258deg 83% 45%);
+    font-size: 1.5rem;
+}
+a.primary__btn:hover{
+    background-color:white;
+    color:  hsl(258deg 83% 45%);
+}
+img.check {
+    margin-right: 8px;
+    max-width: 1.2rem;
+}
+img.check1 {
+    margin-right: 8px;
+    max-width: 1.2rem;
+}
+
+
+li.checkmark__item {
+    margin-right: 18px;
+    display: flex;
+    flex-direction: unset;
+    margin-top: 45px;
+    font-family: 'Inter'sans-serif;
+    margin-top: 16px;
+}
+.container.row {
+    height: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+span {
+    font-size: 16px;
+}
+p {
+    margin-right: 7rem;
+    line-height: 1.5;
+    color: hsl(213, 9%, 39%);
+}
+h2 {
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    margin-top: 4rem;
+}
+p.sub__heading {
+    font-family: 'Inter',sans-serif;
+    margin-bottom: 40px;
+    font-size: 17px;
+    color: hsl(213, 9%, 39%);
+}
+.items.row {
+    margin-top: 90px;
+    display: flex;
+}
+a.example {
+    font-size: smaller;
+    font-weight: 600;
+    color: hsl(258, 83%, 45%);
+    /* list-style: lower-greek; */
+    font-family: 'Inter',sans-serif;
+    text-decoration: underline;
+}
+h1.main__heading {
+    font-family: 'Inter',sans-serif;
+    font-size: 3.1rem;
+    margin-bottom: 55px;
+}
+.rate {
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 25px;
+    margin-top: 60px;
+    display: flex;
+}
+ul.nav-list {
+    font-family:'Inter', sans-serif;
+    background: transparent;
+    justify-content: center;
+    display: flex;
+}
+img.banner_img {
+    width: 55%;
+    height: 55%;
+}
+ul.checkmark {
+    font-family:'Inter', sans-serif;
+    color: hsl(213, 9%, 39%);
+    display: flex;
+    font-size: 17px;
+    margin-top: 34px;
+}
+ a:hover{
+    color: hsl(258deg 83% 45%);
+}
+*, *::before, *::after {
+    padding: 0;
+    box-sizing: border-box;
+}
+banner::before{
+    content: "";
+    background-color: hsl(26deg 81% 94%) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+section.banner {
+  /*  width: 1200px;*/
+    height: 660px;
+    background: hsl(26deg 81% 94%);
+}
+h {
+    font-family: 'Inter',sans-serif;
+}
+nav.navbar {
+    height: 90px;
+    display: flex;
+    background: hsl(26deg 81% 94%);
+    justify-content: space-between;
+    align-items: center;
+}
+a.signup.btn {
+    font-family: 'Inter',sans-serif;
+    font-weight: 900;
+    text-transform: capitalize;
+    color: white;
+    margin: 0px 21px 0px 0px;
+    padding: 0.6rem 1.5rem;
+    border-radius: 0.3rem;
+    background-color: hsl(258deg 83% 45%);
+}
+a.signup.btn:hover{
+    color: hsl(258deg 83% 45%);
+    background-color:white;
+}
+a {
+    color: black;
+    background-color: transparent;
+    padding: 14px 43px;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.usertxt1 {
+    margin-left: 20px;
+}
+.pro1 {
+    margin: 2rem;
+    display: flex;
+}
+.usertxt1 p {
+    font-size: 11px;
+    color: black;
+}
+.usertxt1 h4 {
+    margin-bottom: 0px;
+    color: hsl(258deg 83% 45%);
+}
+.userinfo1 {
+    margin-left: 2rem;
+}
+.userinfo1 p {
+    margin-bottom: 40px;
+}
+.userinfo2 p {
+    margin-bottom: 40px;
+}
+.userinfo3 p {
+    margin-bottom: 40px;
+}
+.usertxt1 {
+    margin-left: 20px;
+}
+.pro2 {
+    margin: 2rem;
+    display: flex;
+}
+.usertxt2 p {
+    font-size: 11px;
+    color: black;
+}
+.usertxt2 h4 {
+    margin-bottom: 0px;
+    color: hsl(258deg 83% 45%);
+}
+.userinfo2 {
+    margin-left: 2rem;
+}
+.usertxt2 {
+    margin-left: 20px;
+}
+.pro3 {
+    margin: 2rem;
+    display: flex;
+}
+button.viewpro {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    font-weight: 700;
+    /* border: 61px black; */
+    background: white;
+    font-size: 16px;
+    height: 35px;
+    color: hsl(258deg 83% 45%);
+}
+button.viewpro:hover {
+    color: white;
+    background: hsl(258deg 83% 45%);
+}
+.usertxt3 p {
+    font-size: 11px;
+    color: black;
+}
+.usertxt3 h4 {
+    margin-bottom: 0px;
+    color: hsl(258deg 83% 45%);
+}
+.userinfo3 {
+
+    margin-left: 2rem;
+}
+.usertxt3 {
+    margin-left: 20px;
+}
+.PROFile1 {
+    padding: 20px 18px;
+    border: 1px solid #e5e5e5;
+    margin: 10px;
+    border-radius: 12px;
+}
+.profile2 {
+    border-radius: 12px;
+    padding: 20px 18px;
+    border: 1px solid #e5e5e5;
+    margin: 10px;
+}
+.profile3{
+    border-radius: 12px;
+    padding: 20px 18px;
+    border: 1px solid #e5e5e5;
+    margin: 10px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+footer.footer-section {
+    padding: 6rem 0px;
+}
+p.footer__para {
+    margin-bottom: 37px;
+    margin-top: 45px;
+    max-width: 65%;
+    font-size: 0.9rem;
+    margin-right: 0px;
+    margin-left: 44px;
+}
+p.heart {
+    font-size: 0.9rem;
+    margin-left: 43px;
+    margin-bottom: 35px;
+}
+a.footer__link {
+    color: hsl(213, 9%, 39%);
+    padding: 0px 0px;
+}
+.containerf {
+    display: flex;
+}
+.footer__logo {
+    width: 60%;
+}
+h4.footer__title {
+    margin-right: 76px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: black;
+}
+ul.footer__list {
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+li.footer__item :hover{
+    color: hsl(258deg 83% 45%);
+}
+img.signup {
+    height: 400px;
+    width: 518px;
+    border-radius: 10px;
+}
+.containerright {
+    border-radius: 20px;
+    width: 50%;
+    background: hsl(258deg 83% 45%);
+    padding: 29px 29px;
+}
+section.sigup {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+h1.signh1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+p.right {
+    color: #ccc;
+}
+h1.create {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 31px;
+}
+label {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+form{
+    margin: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.check3{
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+}
+input#checkbox {
+    margin-left: 38px;
+    margin: 5px;
+}
+a.terms{
+    margin: 0px;
+    text-decoration: underline;
+    font-size: 16px;
+    padding: 0px 0px;
+    font-weight: 600;
+    color: hsl(258deg 83% 45%) ;
+}
+p.already {
+    margin-left: 135px;
+    margin-top: 34px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+}
+a.signinn {
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    padding: 0px;
+    font-weight: 700;
+    color: hsl(258deg 83% 45%) ;
+}
+a#create {
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 19px 108px;
+    color: white;
+    margin-left: 37px;
+    border: 1px solid hsl(258deg 83% 45%);
+    background: hsl(258deg 83% 45%);
+    font-size: 1.2rem;
+    font-family: 'Inter',sans-serif;
+
+}
+
+
+input[type="text"] {
+    font-family: 'Inter',sans-serif;
+    padding: 14px 15px;
+    /* font-weight: 700; */
+    font-size: 16px;
+}
+input[type="email"] {
+    font-family: 'Inter',sans-serif;
+    padding: 14px 15px;
+    /* font-weight: 700; */
+    font-size: 16px;
+}
+input[type="password"] {
+    font-family: 'Inter',sans-serif;
+    padding: 14px 15px;
+    /* font-weight: 700; */
+    font-size: 16px;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 8%;
+    display: none;
+}
+@media screen and (max-width: 955px) {
+
+    nav.navbar{
+       width: 1130px;
+        height: 200px;
+        flex-direction: column;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    ul.nav-list{
+        transition: all 1s ease-out;
+    }
+    img.signup{
+        width: 309px;
+    }
+    a#create{
+        padding: 19px 42px;
+    }
+    p.already{
+        margin-left: 38px;
+    }
+    section.revenuepro{
+        width: 1030px;
+    }
+    section.imagepage{
+        width: 1130px;
+    }
+    section.yfiber{
+        width: 1130px;
+    }
+    section.banner{
+        width: 1130px;
+    }
+    footer.footer-section{
+        width: 1140px;
+    }
+    
+}
+@media screen and (max-width: 755px) {
+    img.signup{
+        width: 274px;
+    }
+}
+@media screen and (max-width: 576px) {
+    img.signup{
+        width: 225px;
+    }
+    .check3 {
+        margin-left: 3px;
+    }
+    form {
+        margin: 3px;
+    }
+    p.right{
+        margin-right: 0px;
+    }
+    p.already {
+        margin-left: 24px;
+    }
+    h1.create {
+        margin-left: 3px;
+    }
+    p.para{
+        margin-right: 0px;
+    }
+    p.already {
+        margin-right:0px ;
+    }
+    a#create {
+        margin-left: 24px;
+        font-size: 0.8rem;
+    }
+    .burger {
+        left: 170%;
+    }
+.containerright{
+    padding: 13px 18px;
+}
+}
+@media screen and (max-width: 515px) {
+    img.signup{
+        width: 200px;
+    }
+    a#create {
+        padding: 17px 6px;
+    }
+}
+@media screen and (max-width: 390px) {
+    img.signup{
+        width: 140px;
+    }
+    h1.signh1 {
+        font-size: 1.5rem;
+    }
+   
+}
